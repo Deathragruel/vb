@@ -13,6 +13,7 @@ Module Module1
             WriteLine("You are not old enough to drive.")
         End If
 
+        ReadKey()
     End Sub
 
 End Module
