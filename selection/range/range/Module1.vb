@@ -10,8 +10,10 @@ Module Module1
 
         If num >= 21 And num <= 29 Then
             WriteLine("Within range")
+        ElseIf num > 29 Then
+            WriteLine("Above range")
         Else
-            WriteLine("Outside range")
+            WriteLine("Below range")
         End If
 
         ReadKey()
