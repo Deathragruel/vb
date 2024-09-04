@@ -2,21 +2,23 @@
 Module Module1
 
     Sub Main()
-        Dim index, num, max, min As Integer
+        Dim num, max, min As Integer
 
-        WriteLine("Enter 8 integers one by one.")
+        WriteLine("Enter integers one by one, and enter 1 if you wish to exit.")
 
         num = ReadLine()
         max = num
         min = num
-        For index = 1 To 7
+
+        While num <> 1
             num = ReadLine()
             If num > max Then
                 max = num
             ElseIf num < min Then
                 min = num
             End If
-        Next
+        End While
+
         WriteLine("Max: " & max)
         WriteLine("Min: " & min)
 
