@@ -1,5 +1,4 @@
 ﻿Imports System.Console
-Imports System.Net.Http.Headers
 Module Module1
 
     Sub Main()
